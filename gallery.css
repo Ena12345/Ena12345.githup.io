@@ -1,0 +1,29 @@
+body{
+    font-family: sans-serif;
+    background-image: url(https://s2.best-wallpaper.net/wallpaper/1680x1050/1107/Squirrel-in-the-grass_1680x1050.jpg);
+}
+ 
+h1{
+    text-align: center;
+    color: #fff;
+    margin: 30px 0 50px;
+}
+ 
+.gallery img{
+    width:230px;
+    padding: 5px;
+    filter: grayscale(100%);
+    transition: 1s;
+
+}
+
+.gallery{
+    padding-left: 13%;
+}
+
+.gallery img:hover{
+    filter: grayscale(0);
+    transform: scale(1.1);
+    
+}
+

@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 10%;
+    background: url(http://image.desk7.net/Animal%20Wallpapers/7673_1280x800.jpg);
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.title{
+    margin-top: 100px;
+    color: #fff;
+}
+
+.title h1{
+    font-size: 32px;
+    line-height: 
+}
+
+form{
+    margin-top: 50px;
+}
+
+.form-control{
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline:none;
+    border-bottom: 1px solid rgb(11, 204, 114);
+    color: #fff;
+    font-size: 13px;
+    margin-bottom: 16px;
+    padding-left: 20px;
+    
+}
+
+.form-control:focus{
+    box-shadow: 0 0 10px 4px #0abe79;
+}
+
+input{
+    height: 45px;
+}
+
+form .submit{
+    background-color: #0abe794d;
+    border-color: transparent;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    letter-spacing: 2px;
+    height: 50px;
+    width: 100px;
+    margin-top: 20px;
+    position:absolute;
+    left: 76.5%;
+
+
+}
+
+form .submit:hover{
+    background-color: #0abe791f;
+    cursor: pointer;
+}
+
+
+
+
